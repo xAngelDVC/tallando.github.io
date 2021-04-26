@@ -1,0 +1,115 @@
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: right;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.menu .active {
+  background-color: #4CAF50;
+}
+
+.main{
+  background-image: url("https://www.escueladesarts.com/wp-content/uploads/estilismo-de-moda.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+
+#titulo{
+  font-size: 50px;
+}
+
+.categorias{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left{
+  background-image: url("https://image.freepik.com/foto-gratis/retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa_158538-3201.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+
+.mid{
+  background-image: url("https://i.pinimg.com/236x/1c/3f/fa/1c3ffa3f4a017c0fd0e528b91187b993.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+
+.right{
+  background-image: url("http://1.bp.blogspot.com/-z5HqlfvAMf0/VTeiixfQ0dI/AAAAAAAANTE/WnHlI_kVhK4/s1600/1.png");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: rgba(19, 35, 47, .9);
+}
+
+.footer li{
+    list-style: none;
+    display: inline-block;
+    border-right: 3px solid white;
+    padding: 0px 7px;
+    font-size: 17px;
+}
+
+.footer li:last-child{
+    border-right: none;
+}
+
+.footer li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

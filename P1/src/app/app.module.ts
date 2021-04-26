@@ -3,24 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClientesComponent } from './clientes/clientes.component';
-import { ProveedoresComponent } from './proveedores/proveedores.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { PerfilComponent } from './perfil/perfil.component';
+import { HomeComponent } from './home/home.component';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { OfertasComponent } from './ofertas/ofertas.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClientesComponent,
-    ProveedoresComponent,
-    LoginComponent,
-    RegisterComponent,
-    PerfilComponent,
+    HomeComponent,
+    CategoriasComponent,
+    OfertasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
