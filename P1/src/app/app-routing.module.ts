@@ -6,7 +6,7 @@ import { CategoriasComponent } from './categorias/categorias.component';
 import { OfertasComponent } from './ofertas/ofertas.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'categorias', component: CategoriasComponent },
   { path: 'ofertas', component: OfertasComponent },
 ];

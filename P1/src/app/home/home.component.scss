@@ -10,12 +10,28 @@
   float: right;
 }
 
+#logoCorp{
+  float: left;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 14px 16px;
+}
+
+#logoCorp p{
+  font-size: 50px;
+}
+
 .menu li a {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  min-width: 80px;
 }
 
 .menu li a:hover:not(.active) {
@@ -43,55 +59,12 @@
   font-size: 50px;
 }
 
-.categorias{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.left{
-  background-image: url("https://image.freepik.com/foto-gratis/retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa_158538-3201.jpg");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 200px;
-}
-
-.mid{
-  background-image: url("https://i.pinimg.com/236x/1c/3f/fa/1c3ffa3f4a017c0fd0e528b91187b993.jpg");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 200px;
-}
-
-.right{
-  background-image: url("http://1.bp.blogspot.com/-z5HqlfvAMf0/VTeiixfQ0dI/AAAAAAAANTE/WnHlI_kVhK4/s1600/1.png");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 200px;
-}
-
 .footer{
-    clear: both;
     text-align: center;
     padding: 20px;
     background: rgba(19, 35, 47, .9);
+    position: relative;
+    bottom: 0;
 }
 
 .footer li{

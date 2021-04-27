@@ -1,7 +1,10 @@
 <header>
     <nav class="menu">
         <ul>
-            <li><a href="">
+            <li id="logoCorp">
+                <p>T</p>
+            </li>
+            <li><a [routerLink]="['/categorias']">
                     <mat-icon aria-hidden="false" aria-label="Example home icon">shopping_cart</mat-icon>Bolsa
                 </a></li>
             <li><a href="">
@@ -20,22 +23,10 @@
 <body>
     <div class="main">
         <h1 id="titulo">TALLANDO</h1>
-        <mat-form-field appearance="fill">
-            <span matPrefix>search</span>
+        <mat-form-field appearance="fill" class="centro">
             <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
             <input matInput type="text" placeholder="Busqueda...">
         </mat-form-field>
-    </div>
-    <div class="categorias">
-        <div class="left">
-            <p>Ofertas</p>
-        </div>
-        <div class="mid">
-            <p>Novedades</p>
-        </div>
-        <div class="right">
-            <p>Niños</p>
-        </div>
     </div>
 </body>
 
