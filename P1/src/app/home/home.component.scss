@@ -27,7 +27,7 @@
 }
 
 .main{
-  background-image: url("https://www.escueladesarts.com/wp-content/uploads/estilismo-de-moda.jpg");
+  background-image: url("https://i.pinimg.com/originals/3f/c9/e9/3fc9e99e085b3b426d6fa989fb4f2ef0.jpg");
   background-color: #cccccc;
   height: 200px;
   background-position: center;
@@ -41,17 +41,20 @@
 
 #titulo{
   font-size: 50px;
+  color: #111;
+  font-style: bold;
 }
 
 .categorias{
   display: flex;
   justify-content: space-evenly;
+  font-size: 15px;
 }
 
 .left{
   background-image: url("https://image.freepik.com/foto-gratis/retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa_158538-3201.jpg");
   background-color: #cccccc;
-  height: 200px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +67,7 @@
 .mid{
   background-image: url("https://i.pinimg.com/236x/1c/3f/fa/1c3ffa3f4a017c0fd0e528b91187b993.jpg");
   background-color: #cccccc;
-  height: 200px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,9 +78,9 @@
 }
 
 .right{
-  background-image: url("http://1.bp.blogspot.com/-z5HqlfvAMf0/VTeiixfQ0dI/AAAAAAAANTE/WnHlI_kVhK4/s1600/1.png");
+  background-image: url("https://lsco.scene7.com/is/image/lsco/865240007-front-pdp-lse?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=450&hei=750");
   background-color: #cccccc;
-  height: 200px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,4 +115,82 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+#search{
+    width: 350px;
+    height: 20px;
+    margin-right: auto;
+}
+#tituloCategorias{
+    text-align: center;
+    margin-left: auto;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#textoCategoria{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 17px;
+    width: 50%;
+}
+.Boletin{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    padding: 30px;
+}
+#imgBoletin{
+    width: 25%;
+}
+#textoBoletin{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+#search1{
+    width: 600px;
+    height: 50px;
+    margin-right: auto;
+    font-size: 20px;
+}
+#subBoton{
+    width: 150px;
+    height: 55px;
+    margin-left: 40px;
+    background-color: rgb(175, 175, 175);
+    font-size: 20px;
+}
+#tituloModelo{
+    font-size: 40px;
+}
+#cajaModelo{
+    width: 25%;
+}
+.modeloyproductos{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+}
+.productos{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card{
+    margin-left: 20px;
+}
+#searchBar{
+    width: 500px;
+    border-radius: 50px 50px  50px 50px;
+    height: 40px;
+}
+#botonBuscar{
+    border-radius: 50px 50px  50px 50px;
 }

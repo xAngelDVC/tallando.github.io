@@ -20,21 +20,84 @@
 <body>
     <div class="main">
         <h1 id="titulo">TALLANDO</h1>
-        <mat-form-field appearance="fill">
-            <span matPrefix>search</span>
-            <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
-            <input matInput type="text" placeholder="Busqueda...">
-        </mat-form-field>
+        <input id="searchBar" type="text" placeholder="Buscar" aria-label="Search">
+        <a href="#" id="botonBuscar" class="btn btn-primary">Buscar</a>
     </div>
+    <p id="tituloCategorias">Categorias destacadas</p>
+    <p id="textoCategoria">Seleccione una categoria de las mostradas a continuacion para empezar a mirar las mejores
+        prendas disponibles de todo internet.</p>
     <div class="categorias">
         <div class="left">
-            <p>Ofertas</p>
+            <button mat-raised-button>MUJER</button>
         </div>
         <div class="mid">
-            <p>Novedades</p>
+            <button mat-raised-button>HOMBRE</button>
         </div>
         <div class="right">
-            <p>Niños</p>
+            <button mat-raised-button>NIÑOS</button>
+        </div>
+    </div>
+    <div class="Boletin">
+        <img id="imgBoletin"
+            src="data:image/png;base64,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"
+            alt="Boletin">
+        <div id="textoBoletin">
+            <p>Boletin informativo</p>
+            <input matInput id="search1" type="text" placeholder="Introduzca su correo electronico...">
+            <button mat-raised-button id="subBoton">Suscribirse</button>
+        </div>
+    </div>
+    <div class="modeloyproductos">
+        <div id="cajaModelo">
+            <p id="tituloModelo">Crea tu propio modelo 3D</p>
+            <p>Crea aqui tu propio modelo 3D para bla bla bla</p>
+            <a href="#" class="btn btn-primary">Crear modelo</a>
+        </div>
+        <div class="productos">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.footlocker.com/is/image/FLEU/317135040020_01?wid=630&hei=630&fmt=png-alpha"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TITULO PRODUCTO</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p class="card-text">XX€</p>
+                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.footlocker.com/is/image/FLEU/317982633080_01?wid=630&hei=630&fmt=png-alpha"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TITULO PRODUCTO</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p class="card-text">XX€</p>
+                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.footlocker.com/is/image/FLEU/317983357210_01?wid=630&hei=630&fmt=png-alpha"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TITULO PRODUCTO</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p class="card-text">XX€</p>
+                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.footlocker.com/is/image/FLEU/317351340210_01?wid=630&hei=630&fmt=png-alpha"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TITULO PRODUCTO</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p class="card-text">XX€</p>
+                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
